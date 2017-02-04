@@ -7,14 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A576BE8A1E3FE9940024FB68 /* TripleDES.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE6A1E3FE9940024FB68 /* TripleDES.swift */; };
+		A576BE8B1E3FE9940024FB68 /* FWExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE6C1E3FE9940024FB68 /* FWExtension.swift */; };
+		A576BE8C1E3FE9940024FB68 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE6E1E3FE9940024FB68 /* CheckBox.swift */; };
+		A576BE8D1E3FE9940024FB68 /* CreditCardFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE6F1E3FE9940024FB68 /* CreditCardFormatter.swift */; };
+		A576BE8E1E3FE9940024FB68 /* FWConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE701E3FE9940024FB68 /* FWConstant.swift */; };
+		A576BE8F1E3FE9940024FB68 /* FWHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE711E3FE9940024FB68 /* FWHelper.swift */; };
+		A576BE901E3FE9940024FB68 /* FWPaddedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE721E3FE9940024FB68 /* FWPaddedTextField.swift */; };
+		A576BE911E3FE9940024FB68 /* FlutterwavePaymentResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE741E3FE9940024FB68 /* FlutterwavePaymentResult.swift */; };
+		A576BE921E3FE9940024FB68 /* RavePaymentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE761E3FE9940024FB68 /* RavePaymentManager.swift */; };
+		A576BE931E3FE9940024FB68 /* RavePaymentManager.xib in Resources */ = {isa = PBXBuildFile; fileRef = A576BE771E3FE9940024FB68 /* RavePaymentManager.xib */; };
+		A576BE941E3FE9940024FB68 /* RedirectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE781E3FE9940024FB68 /* RedirectVC.swift */; };
+		A576BE951E3FE9940024FB68 /* RedirectVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A576BE791E3FE9940024FB68 /* RedirectVC.xib */; };
+		A576BE961E3FE9940024FB68 /* FWPresentationAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE7B1E3FE9940024FB68 /* FWPresentationAnimator.swift */; };
+		A576BE971E3FE9940024FB68 /* FWPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE7C1E3FE9940024FB68 /* FWPresentationController.swift */; };
+		A576BE981E3FE9940024FB68 /* FWPresentationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE7D1E3FE9940024FB68 /* FWPresentationManager.swift */; };
+		A576BE991E3FE9940024FB68 /* FWRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE7F1E3FE9940024FB68 /* FWRequest.swift */; };
+		A576BE9A1E3FE9940024FB68 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A576BE801E3FE9940024FB68 /* Info.plist */; };
+		A576BE9B1E3FE9940024FB68 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = A576BE821E3FE9940024FB68 /* cancel.png */; };
+		A576BE9C1E3FE9940024FB68 /* dropdown.png in Resources */ = {isa = PBXBuildFile; fileRef = A576BE831E3FE9940024FB68 /* dropdown.png */; };
+		A576BE9D1E3FE9940024FB68 /* generic-card.png in Resources */ = {isa = PBXBuildFile; fileRef = A576BE841E3FE9940024FB68 /* generic-card.png */; };
+		A576BE9E1E3FE9940024FB68 /* ic_check_box.png in Resources */ = {isa = PBXBuildFile; fileRef = A576BE851E3FE9940024FB68 /* ic_check_box.png */; };
+		A576BE9F1E3FE9940024FB68 /* ic_check_box_outline_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = A576BE861E3FE9940024FB68 /* ic_check_box_outline_blank.png */; };
+		A576BEA01E3FE9940024FB68 /* logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A576BE871E3FE9940024FB68 /* logo.jpg */; };
+		A576BEA11E3FE9940024FB68 /* mastercard.png in Resources */ = {isa = PBXBuildFile; fileRef = A576BE881E3FE9940024FB68 /* mastercard.png */; };
+		A576BEA21E3FE9940024FB68 /* visa-card.png in Resources */ = {isa = PBXBuildFile; fileRef = A576BE891E3FE9940024FB68 /* visa-card.png */; };
 		A5C3573C1E3E00A5005FF817 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C3573B1E3E00A5005FF817 /* AppDelegate.swift */; };
 		A5C3573E1E3E00A5005FF817 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C3573D1E3E00A5005FF817 /* ViewController.swift */; };
 		A5C357411E3E00A5005FF817 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C3573F1E3E00A5005FF817 /* Main.storyboard */; };
 		A5C357431E3E00A5005FF817 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5C357421E3E00A5005FF817 /* Assets.xcassets */; };
 		A5C357461E3E00A5005FF817 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5C357441E3E00A5005FF817 /* LaunchScreen.storyboard */; };
+		A5C357871E3E00F7005FF817 /* EnterKeyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5C357861E3E00F7005FF817 /* EnterKeyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A576BE6A1E3FE9940024FB68 /* TripleDES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleDES.swift; sourceTree = "<group>"; };
+		A576BE6C1E3FE9940024FB68 /* FWExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWExtension.swift; sourceTree = "<group>"; };
+		A576BE6E1E3FE9940024FB68 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
+		A576BE6F1E3FE9940024FB68 /* CreditCardFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreditCardFormatter.swift; sourceTree = "<group>"; };
+		A576BE701E3FE9940024FB68 /* FWConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWConstant.swift; sourceTree = "<group>"; };
+		A576BE711E3FE9940024FB68 /* FWHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWHelper.swift; sourceTree = "<group>"; };
+		A576BE721E3FE9940024FB68 /* FWPaddedTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPaddedTextField.swift; sourceTree = "<group>"; };
+		A576BE741E3FE9940024FB68 /* FlutterwavePaymentResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterwavePaymentResult.swift; sourceTree = "<group>"; };
+		A576BE761E3FE9940024FB68 /* RavePaymentManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RavePaymentManager.swift; sourceTree = "<group>"; };
+		A576BE771E3FE9940024FB68 /* RavePaymentManager.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RavePaymentManager.xib; sourceTree = "<group>"; };
+		A576BE781E3FE9940024FB68 /* RedirectVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedirectVC.swift; sourceTree = "<group>"; };
+		A576BE791E3FE9940024FB68 /* RedirectVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RedirectVC.xib; sourceTree = "<group>"; };
+		A576BE7B1E3FE9940024FB68 /* FWPresentationAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPresentationAnimator.swift; sourceTree = "<group>"; };
+		A576BE7C1E3FE9940024FB68 /* FWPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPresentationController.swift; sourceTree = "<group>"; };
+		A576BE7D1E3FE9940024FB68 /* FWPresentationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWPresentationManager.swift; sourceTree = "<group>"; };
+		A576BE7F1E3FE9940024FB68 /* FWRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWRequest.swift; sourceTree = "<group>"; };
+		A576BE801E3FE9940024FB68 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A576BE821E3FE9940024FB68 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		A576BE831E3FE9940024FB68 /* dropdown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dropdown.png; sourceTree = "<group>"; };
+		A576BE841E3FE9940024FB68 /* generic-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "generic-card.png"; sourceTree = "<group>"; };
+		A576BE851E3FE9940024FB68 /* ic_check_box.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_check_box.png; sourceTree = "<group>"; };
+		A576BE861E3FE9940024FB68 /* ic_check_box_outline_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_check_box_outline_blank.png; sourceTree = "<group>"; };
+		A576BE871E3FE9940024FB68 /* logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.jpg; sourceTree = "<group>"; };
+		A576BE881E3FE9940024FB68 /* mastercard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mastercard.png; sourceTree = "<group>"; };
+		A576BE891E3FE9940024FB68 /* visa-card.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "visa-card.png"; sourceTree = "<group>"; };
 		A5C357381E3E00A5005FF817 /* Rave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C3573B1E3E00A5005FF817 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5C3573D1E3E00A5005FF817 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +73,8 @@
 		A5C357421E3E00A5005FF817 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A5C357451E3E00A5005FF817 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A5C357471E3E00A5005FF817 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5C357861E3E00F7005FF817 /* EnterKeyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnterKeyViewController.swift; sourceTree = "<group>"; };
+		A5C3578A1E3E0224005FF817 /* Rave-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Rave-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +88,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A576BE681E3FE9940024FB68 /* Rave */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE691E3FE9940024FB68 /* FWEncryption */,
+				A576BE6B1E3FE9940024FB68 /* FWExtension */,
+				A576BE6D1E3FE9940024FB68 /* FWHelperAndConstant */,
+				A576BE731E3FE9940024FB68 /* FWModel */,
+				A576BE751E3FE9940024FB68 /* FWPayVC */,
+				A576BE7A1E3FE9940024FB68 /* FWPresentation */,
+				A576BE7E1E3FE9940024FB68 /* FWRequest */,
+				A576BE801E3FE9940024FB68 /* Info.plist */,
+				A576BE811E3FE9940024FB68 /* Resource */,
+			);
+			path = Rave;
+			sourceTree = "<group>";
+		};
+		A576BE691E3FE9940024FB68 /* FWEncryption */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE6A1E3FE9940024FB68 /* TripleDES.swift */,
+			);
+			path = FWEncryption;
+			sourceTree = "<group>";
+		};
+		A576BE6B1E3FE9940024FB68 /* FWExtension */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE6C1E3FE9940024FB68 /* FWExtension.swift */,
+			);
+			path = FWExtension;
+			sourceTree = "<group>";
+		};
+		A576BE6D1E3FE9940024FB68 /* FWHelperAndConstant */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE6E1E3FE9940024FB68 /* CheckBox.swift */,
+				A576BE6F1E3FE9940024FB68 /* CreditCardFormatter.swift */,
+				A576BE701E3FE9940024FB68 /* FWConstant.swift */,
+				A576BE711E3FE9940024FB68 /* FWHelper.swift */,
+				A576BE721E3FE9940024FB68 /* FWPaddedTextField.swift */,
+			);
+			path = FWHelperAndConstant;
+			sourceTree = "<group>";
+		};
+		A576BE731E3FE9940024FB68 /* FWModel */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE741E3FE9940024FB68 /* FlutterwavePaymentResult.swift */,
+			);
+			path = FWModel;
+			sourceTree = "<group>";
+		};
+		A576BE751E3FE9940024FB68 /* FWPayVC */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE761E3FE9940024FB68 /* RavePaymentManager.swift */,
+				A576BE771E3FE9940024FB68 /* RavePaymentManager.xib */,
+				A576BE781E3FE9940024FB68 /* RedirectVC.swift */,
+				A576BE791E3FE9940024FB68 /* RedirectVC.xib */,
+			);
+			path = FWPayVC;
+			sourceTree = "<group>";
+		};
+		A576BE7A1E3FE9940024FB68 /* FWPresentation */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE7B1E3FE9940024FB68 /* FWPresentationAnimator.swift */,
+				A576BE7C1E3FE9940024FB68 /* FWPresentationController.swift */,
+				A576BE7D1E3FE9940024FB68 /* FWPresentationManager.swift */,
+			);
+			path = FWPresentation;
+			sourceTree = "<group>";
+		};
+		A576BE7E1E3FE9940024FB68 /* FWRequest */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE7F1E3FE9940024FB68 /* FWRequest.swift */,
+			);
+			path = FWRequest;
+			sourceTree = "<group>";
+		};
+		A576BE811E3FE9940024FB68 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				A576BE821E3FE9940024FB68 /* cancel.png */,
+				A576BE831E3FE9940024FB68 /* dropdown.png */,
+				A576BE841E3FE9940024FB68 /* generic-card.png */,
+				A576BE851E3FE9940024FB68 /* ic_check_box.png */,
+				A576BE861E3FE9940024FB68 /* ic_check_box_outline_blank.png */,
+				A576BE871E3FE9940024FB68 /* logo.jpg */,
+				A576BE881E3FE9940024FB68 /* mastercard.png */,
+				A576BE891E3FE9940024FB68 /* visa-card.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		A5C3572F1E3E00A5005FF817 = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +203,15 @@
 		A5C3573A1E3E00A5005FF817 /* Rave */ = {
 			isa = PBXGroup;
 			children = (
+				A576BE681E3FE9940024FB68 /* Rave */,
 				A5C3573B1E3E00A5005FF817 /* AppDelegate.swift */,
 				A5C3573D1E3E00A5005FF817 /* ViewController.swift */,
+				A5C357861E3E00F7005FF817 /* EnterKeyViewController.swift */,
 				A5C3573F1E3E00A5005FF817 /* Main.storyboard */,
 				A5C357421E3E00A5005FF817 /* Assets.xcassets */,
 				A5C357441E3E00A5005FF817 /* LaunchScreen.storyboard */,
 				A5C357471E3E00A5005FF817 /* Info.plist */,
+				A5C3578A1E3E0224005FF817 /* Rave-Bridging-Header.h */,
 			);
 			path = Rave;
 			sourceTree = "<group>";
@@ -97,6 +249,7 @@
 					A5C357371E3E00A5005FF817 = {
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = QRGN64L84L;
+						LastSwiftMigration = 0810;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -125,7 +278,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C357461E3E00A5005FF817 /* LaunchScreen.storyboard in Resources */,
+				A576BE9D1E3FE9940024FB68 /* generic-card.png in Resources */,
 				A5C357431E3E00A5005FF817 /* Assets.xcassets in Resources */,
+				A576BE9B1E3FE9940024FB68 /* cancel.png in Resources */,
+				A576BEA01E3FE9940024FB68 /* logo.jpg in Resources */,
+				A576BE9A1E3FE9940024FB68 /* Info.plist in Resources */,
+				A576BEA11E3FE9940024FB68 /* mastercard.png in Resources */,
+				A576BE9C1E3FE9940024FB68 /* dropdown.png in Resources */,
+				A576BE951E3FE9940024FB68 /* RedirectVC.xib in Resources */,
+				A576BE9F1E3FE9940024FB68 /* ic_check_box_outline_blank.png in Resources */,
+				A576BEA21E3FE9940024FB68 /* visa-card.png in Resources */,
+				A576BE931E3FE9940024FB68 /* RavePaymentManager.xib in Resources */,
+				A576BE9E1E3FE9940024FB68 /* ic_check_box.png in Resources */,
 				A5C357411E3E00A5005FF817 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +302,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5C3573E1E3E00A5005FF817 /* ViewController.swift in Sources */,
+				A576BE8D1E3FE9940024FB68 /* CreditCardFormatter.swift in Sources */,
+				A576BE921E3FE9940024FB68 /* RavePaymentManager.swift in Sources */,
+				A576BE991E3FE9940024FB68 /* FWRequest.swift in Sources */,
+				A576BE961E3FE9940024FB68 /* FWPresentationAnimator.swift in Sources */,
+				A576BE8E1E3FE9940024FB68 /* FWConstant.swift in Sources */,
 				A5C3573C1E3E00A5005FF817 /* AppDelegate.swift in Sources */,
+				A576BE911E3FE9940024FB68 /* FlutterwavePaymentResult.swift in Sources */,
+				A576BE901E3FE9940024FB68 /* FWPaddedTextField.swift in Sources */,
+				A576BE8C1E3FE9940024FB68 /* CheckBox.swift in Sources */,
+				A576BE8A1E3FE9940024FB68 /* TripleDES.swift in Sources */,
+				A576BE981E3FE9940024FB68 /* FWPresentationManager.swift in Sources */,
+				A576BE8F1E3FE9940024FB68 /* FWHelper.swift in Sources */,
+				A576BE941E3FE9940024FB68 /* RedirectVC.swift in Sources */,
+				A5C357871E3E00F7005FF817 /* EnterKeyViewController.swift in Sources */,
+				A576BE8B1E3FE9940024FB68 /* FWExtension.swift in Sources */,
+				A576BE971E3FE9940024FB68 /* FWPresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +440,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QRGN64L84L;
 				INFOPLIST_FILE = Rave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnsonejezie.Rave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rave/Rave-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +456,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = QRGN64L84L;
 				INFOPLIST_FILE = Rave/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.johnsonejezie.Rave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Rave/Rave-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -302,6 +486,7 @@
 				A5C3574C1E3E00A5005FF817 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
