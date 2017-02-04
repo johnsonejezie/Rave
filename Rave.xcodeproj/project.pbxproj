@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A5683C661E462FA500F7C0E8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A5683C641E462FA500F7C0E8 /* LICENSE */; };
+		A5683C671E462FA500F7C0E8 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A5683C651E462FA500F7C0E8 /* .gitignore */; };
+		A5683C6B1E46301900F7C0E8 /* 1.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A5683C691E46301900F7C0E8 /* 1.PNG */; };
+		A5683C6C1E46301900F7C0E8 /* 2.PNG in Resources */ = {isa = PBXBuildFile; fileRef = A5683C6A1E46301900F7C0E8 /* 2.PNG */; };
 		A576BE8A1E3FE9940024FB68 /* TripleDES.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE6A1E3FE9940024FB68 /* TripleDES.swift */; };
 		A576BE8B1E3FE9940024FB68 /* FWExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE6C1E3FE9940024FB68 /* FWExtension.swift */; };
 		A576BE8C1E3FE9940024FB68 /* CheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576BE6E1E3FE9940024FB68 /* CheckBox.swift */; };
@@ -41,6 +45,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A5683C641E462FA500F7C0E8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A5683C651E462FA500F7C0E8 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		A5683C691E46301900F7C0E8 /* 1.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.PNG; sourceTree = "<group>"; };
+		A5683C6A1E46301900F7C0E8 /* 2.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.PNG; sourceTree = "<group>"; };
 		A576BE6A1E3FE9940024FB68 /* TripleDES.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TripleDES.swift; sourceTree = "<group>"; };
 		A576BE6C1E3FE9940024FB68 /* FWExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FWExtension.swift; sourceTree = "<group>"; };
 		A576BE6E1E3FE9940024FB68 /* CheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBox.swift; sourceTree = "<group>"; };
@@ -88,6 +96,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5683C631E462F8E00F7C0E8 /* Git */ = {
+			isa = PBXGroup;
+			children = (
+				A5683C641E462FA500F7C0E8 /* LICENSE */,
+				A5683C651E462FA500F7C0E8 /* .gitignore */,
+			);
+			name = Git;
+			sourceTree = "<group>";
+		};
+		A5683C681E46301900F7C0E8 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				A5683C691E46301900F7C0E8 /* 1.PNG */,
+				A5683C6A1E46301900F7C0E8 /* 2.PNG */,
+			);
+			path = Screenshots;
+			sourceTree = "<group>";
+		};
 		A576BE681E3FE9940024FB68 /* Rave */ = {
 			isa = PBXGroup;
 			children = (
@@ -203,6 +229,8 @@
 		A5C3573A1E3E00A5005FF817 /* Rave */ = {
 			isa = PBXGroup;
 			children = (
+				A5683C681E46301900F7C0E8 /* Screenshots */,
+				A5683C631E462F8E00F7C0E8 /* Git */,
 				A576BE681E3FE9940024FB68 /* Rave */,
 				A5C3573B1E3E00A5005FF817 /* AppDelegate.swift */,
 				A5C3573D1E3E00A5005FF817 /* ViewController.swift */,
@@ -277,15 +305,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5683C671E462FA500F7C0E8 /* .gitignore in Resources */,
 				A5C357461E3E00A5005FF817 /* LaunchScreen.storyboard in Resources */,
 				A576BE9D1E3FE9940024FB68 /* generic-card.png in Resources */,
 				A5C357431E3E00A5005FF817 /* Assets.xcassets in Resources */,
+				A5683C6B1E46301900F7C0E8 /* 1.PNG in Resources */,
 				A576BE9B1E3FE9940024FB68 /* cancel.png in Resources */,
 				A576BEA01E3FE9940024FB68 /* logo.jpg in Resources */,
 				A576BE9A1E3FE9940024FB68 /* Info.plist in Resources */,
 				A576BEA11E3FE9940024FB68 /* mastercard.png in Resources */,
 				A576BE9C1E3FE9940024FB68 /* dropdown.png in Resources */,
 				A576BE951E3FE9940024FB68 /* RedirectVC.xib in Resources */,
+				A5683C661E462FA500F7C0E8 /* LICENSE in Resources */,
+				A5683C6C1E46301900F7C0E8 /* 2.PNG in Resources */,
 				A576BE9F1E3FE9940024FB68 /* ic_check_box_outline_blank.png in Resources */,
 				A576BEA21E3FE9940024FB68 /* visa-card.png in Resources */,
 				A576BE931E3FE9940024FB68 /* RavePaymentManager.xib in Resources */,
