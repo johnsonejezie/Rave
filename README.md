@@ -2,8 +2,8 @@
 Rave is an easy to implement library to interact with [Flutterwave](https://www.flutterwave.com/) API. It comes with in-built UI to collect credit card or bank details.
 
 ***
-<img src="Screenshots/1.PNG" alt="screenshot" height = "400px" width = "220px"/>
-<img src="Screenshots/2.PNG" alt="screenshot" height = "400px" width = "230px"/>
+<img src="Rave/Screenshots/1.PNG" alt="screenshot" height = "400px" width = "220px"/>
+<img src="Rave/Screenshots/2.PNG" alt="screenshot" height = "400px" width = "230px"/>
 
 ##Installation
 Rave supports Swift 3.0+.
