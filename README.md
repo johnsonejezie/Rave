@@ -7,7 +7,7 @@ Rave is an easy to implement library to interact with [Flutterwave](https://www.
 
 ##Installation
 Rave supports Swift 3.0+.
-You can integrate Rave into your project manually. Drag the folder Rave into your project. Rave uses TripleDES for encryption and as such requires CommonCrypto. Create header bridge and import CommonCrypto.
+You can integrate Rave into your project manually. Drag the inner Rave folder into your project. Rave uses TripleDES for encryption and as such requires CommonCrypto. Create header bridge and import CommonCrypto.
 `#import <CommonCrypto/CommonCrypto.h>`
 
 ## Basic usage 
